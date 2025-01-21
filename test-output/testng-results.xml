@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-14T13:27:30 IST" name="Suite" finished-at="2025-01-14T13:27:30 IST" duration-ms="151">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.SecondTest(java.lang.String)[pri:0, instance:test.day1@333291e3]" name="SecondTest" class="test.day1"/>
+        <method signature="day4.carLoanWeb()[pri:0, instance:test.day4@4550bb58]" name="carLoanWeb" class="test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-01-14T13:27:30 IST" name="Personal Loan" finished-at="2025-01-14T13:27:30 IST" duration-ms="42">
+      <class name="test.day2">
+        <test-method signature="secondDay()[pri:0, instance:test.day2@384ad17b]" started-at="2025-01-14T13:27:30 IST" name="secondDay" finished-at="2025-01-14T13:27:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondDay -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method signature="Demo()[pri:0, instance:test.day1@333291e3]" started-at="2025-01-14T13:27:30 IST" name="Demo" finished-at="2025-01-14T13:27:30 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest(java.lang.String)[pri:0, instance:test.day1@333291e3]" started-at="2025-01-14T13:27:30 IST" name="SecondTest" finished-at="2025-01-14T13:27:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PersonalLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2025-01-14T13:27:30 IST" name="Home Loan" finished-at="2025-01-14T13:27:30 IST" duration-ms="7">
+      <class name="test.day3">
+        <test-method signature="homeLoanAPI(java.lang.String)[pri:0, instance:test.day3@8f4ea7c]" started-at="2025-01-14T13:27:30 IST" name="homeLoanAPI" finished-at="2025-01-14T13:27:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomeLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanAPI -->
+        <test-method signature="homeLoanWeb()[pri:0, instance:test.day3@8f4ea7c]" started-at="2025-01-14T13:27:30 IST" name="homeLoanWeb" finished-at="2025-01-14T13:27:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanWeb -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Home Loan -->
+    <test started-at="2025-01-14T13:27:30 IST" name="Car Loan" finished-at="2025-01-14T13:27:30 IST" duration-ms="8">
+      <class name="test.day4">
+        <test-method signature="carLoanAPI(java.lang.String)[pri:0, instance:test.day4@4550bb58]" started-at="2025-01-14T13:27:30 IST" name="carLoanAPI" finished-at="2025-01-14T13:27:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CarLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanAPI -->
+        <test-method signature="carLoanMobile(java.lang.String)[pri:0, instance:test.day4@4550bb58]" started-at="2025-01-14T13:27:30 IST" name="carLoanMobile" finished-at="2025-01-14T13:27:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CarLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanMobile -->
+        <test-method signature="carLoanWeb()[pri:0, instance:test.day4@4550bb58]" started-at="2025-01-14T13:27:30 IST" name="carLoanWeb" finished-at="2025-01-14T13:27:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanWeb -->
+      </class> <!-- test.day4 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
